@@ -4,16 +4,23 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // PAGES
-import MainPage from "./pages/MainPage";
-
+import Page1 from "./pages/Page1";
+import Page2 from "./pages/Page2";
 
 // ROUTES
 const router = createBrowserRouter([
   {
       path: "/",
       exact: true,
-      element: <MainPage />,
+      element: <Page1 />,
   },
+  {
+    path: "/2",
+    exact: true,
+    element: <Page2 />,
+},
+
+
 ]);
 
 

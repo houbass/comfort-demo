@@ -358,6 +358,7 @@ a{
   justify-content: center;
 }
 
+
 .menu-1-container {
   position: absolute;
   display: flex;
@@ -367,6 +368,17 @@ a{
   width: 445px;
   height: 440px;
   transform: translate(420px, 15px);
+}
+
+.menu-2-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap1);
+  width: 445px;
+  height: 440px;
+  transform: translate(480px, 15px);
 }
 
 .table-menu {
