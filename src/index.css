@@ -3,6 +3,11 @@
   src:  url('./fonts/BebasNeue-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'gloock_regular';
+  src:  url('./fonts/Gloock-Regular.ttf') format('truetype');
+}
+
 
 * {
   padding: 0;
@@ -401,7 +406,7 @@ a{
 
 /* fonts */
 .menu-text-header {
-  font-family: "bebas_regular";
+  font-family: "gloock_regular";
   font-size: 40px;
 }
 
@@ -426,8 +431,10 @@ a{
 
 }
 
+
 .menu-text-container:hover {
   color: rgb(247, 247, 248);
+  background: rgba(152, 102, 70, 1);
 }
 
 

@@ -1,7 +1,7 @@
 
 
 // PICTURES
-import BackroundPic from "../pictures/menu2.png";
+import BackroundPic from "../pictures/menu2.jpg";
 
 export default function Page2() {
 

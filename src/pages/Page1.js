@@ -1,11 +1,18 @@
 
 
 // PICTURES
-import BackroundPic from "../pictures/mainPage.png";
+import BackroundPic from "../pictures/mainPage.jpg";
 import TablePic from "../pictures/table.png";
 
 
+// ROATER
+import { useNavigate, Link } from 'react-router-dom';
+
+
 export default function Page1() {
+
+    // ROATER
+    const navigate = useNavigate()
 
 
     return(
@@ -22,32 +29,51 @@ export default function Page1() {
                 <div className="menu-1-container" >
                     <span className="menu-text-header mt-3 pb-1">Wardrobe</span>
 
-                    <div className="menu-text-container">
+                    <a 
+                    className="menu-text-container"
+                    onClick={() => {navigate("/2")}}
+                    >
                         <span className="menu-text">MOOD</span>
-                    </div>
+                    </a>
 
-                    <div className="menu-text-container">
+                    <a 
+                    className="menu-text-container"
+                    onClick={() => {navigate("/2")}}
+                    >
                         <span className="menu-text">MOOD REVISTED</span>
-                    </div>
+                    </a>
 
-                    <div className="menu-text-container">
+                    <a 
+                    className="menu-text-container"
+                    onClick={() => {navigate("/2")}}
+                    >
                         <span className="menu-text">ACTUAL WARDROBE</span>
-                    </div>
+                    </a>
 
-                    <div className="menu-text-container">
+                    <a 
+                    className="menu-text-container"
+                    onClick={() => {navigate("/2")}}
+                    >
                         <span className="menu-text">DIR SELECTION</span>
-                    </div>
+                    </a>
                 </div>
 
                 <div className="table-menu" >
                     <img width="150" height="auto" src={TablePic}></img>
                 </div>
 
-                <div 
-                className="table-menu-container" >                
-                    <span className="menu-text-2">LOCATIONS</span>
-                    <span className="menu-text-2">PROD. DESIGN</span>
-                    <span className="menu-text-2">CASTING</span>
+                <div className="table-menu-container" >   
+                    <a onClick={() => {navigate("/2")}} >
+                        <span className="menu-text-2">LOCATIONS</span>
+                    </a>             
+                    
+                    <a onClick={() => {navigate("/2")}} >
+                        <span className="menu-text-2">PROD. DESIGN</span>
+                    </a>     
+                    
+                    <a onClick={() => {navigate("/2")}} >
+                        <span className="menu-text-2">CASTING</span>
+                    </a>
                 </div>
 
             </div>

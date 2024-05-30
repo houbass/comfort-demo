@@ -4,13 +4,19 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // PAGES
+import LandingPage from "./pages/LandingPage";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 
 // ROUTES
 const router = createBrowserRouter([
   {
-      path: "/",
+    path: "/",
+    exact: true,
+    element: <LandingPage />,
+  },
+  {
+      path: "/1",
       exact: true,
       element: <Page1 />,
   },
