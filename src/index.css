@@ -427,10 +427,7 @@ a{
   width: 275px;
   color: rgb(41, 42, 42);
   cursor: pointer;
-
-
 }
-
 
 .menu-text-container:hover {
   color: rgb(247, 247, 248);
@@ -446,8 +443,9 @@ a{
   cursor: pointer;
 }
 
-
-
+.menu-text-2:hover {
+  text-decoration: underline;
+}
 
 
 /* background pic */
