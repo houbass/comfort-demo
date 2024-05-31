@@ -58,28 +58,28 @@ export default function Page1() {
                         <span className="menu-text-header mt-3 pb-1">Wardrobe</span>
 
                         <Link 
-                        to={"/2"}
+                        //to={"/2"}
                         className="menu-text-container"
                         >
                             <span className="menu-text">MOOD</span>
                         </Link>
 
                         <Link 
-                        to={"/2"}
+                        //to={"/2"}
                         className="menu-text-container"
                         >
                             <span className="menu-text">MOOD REVISTED</span>
                         </Link>
 
                         <Link 
-                        to={"/2"}
+                        //to={"/2"}
                         className="menu-text-container"
                         >
                             <span className="menu-text">ACTUAL WARDROBE</span>
                         </Link>
 
                         <Link 
-                        to={"/2"}
+                        //to={"/2"}
                         className="menu-text-container"
                         >
                             <span className="menu-text">DIR SELECTION</span>
@@ -91,15 +91,21 @@ export default function Page1() {
                     </div>
 
                     <div className="table-menu-container" >   
-                        <Link to={"/2"} className="menu-text-2">
+                        <Link 
+                        //to={"/2"} 
+                        className="menu-text-2">
                             LOCATIONS
                         </Link>             
                         
-                        <Link to={"/2"} className="menu-text-2">
+                        <Link 
+                        //to={"/2"} 
+                        className="menu-text-2">
                             PROD. DESIGN
                         </Link>    
                         
-                        <Link to={"/2"} className="menu-text-2">
+                        <Link 
+                        //to={"/2"} 
+                        className="menu-text-2">
                             CASTING
                         </Link>
                     </div>

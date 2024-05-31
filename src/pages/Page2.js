@@ -2,6 +2,9 @@
 import { useEffect, useState } from "react";
 
 
+// ROUTER
+import { useNavigate, Link } from 'react-router-dom';
+
 // PICTURES
 import BackroundPic from "../pictures/menu2.jpg";
 
@@ -53,21 +56,35 @@ export default function Page2() {
                     <div className="menu-2-container" >
                         <span className="menu-text-header mt-3 pb-1">Project name</span>
 
-                        <div className="menu-text-container">
+
+
+                        <Link 
+                        to={"/1"}
+                        className="menu-text-container"
+                        >
                             <span className="menu-text">LOCATIONS</span>
-                        </div>
+                        </Link>
 
-                        <div className="menu-text-container">
+                        <Link 
+                        to={"/1"}
+                        className="menu-text-container"
+                        >
                             <span className="menu-text">PROD. DESIGN</span>
-                        </div>
+                        </Link>
 
-                        <div className="menu-text-container">
+                        <Link 
+                        to={"/1"}
+                        className="menu-text-container"
+                        >
                             <span className="menu-text">WARDROBE</span>
-                        </div>
+                        </Link>
 
-                        <div className="menu-text-container">
+                        <Link 
+                        to={"/1"}
+                        className="menu-text-container"
+                        >
                             <span className="menu-text">CASTING</span>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>
